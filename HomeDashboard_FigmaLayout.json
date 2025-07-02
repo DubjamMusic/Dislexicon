@@ -1,0 +1,160 @@
+{
+  "name": "Home Dashboard UI",
+  "type": "FRAME",
+  "children": [
+    {
+      "name": "Sidebar",
+      "type": "FRAME",
+      "absoluteBoundingBox": {
+        "x": 0,
+        "y": 0,
+        "width": 80,
+        "height": 1024
+      },
+      "backgroundColor": {
+        "r": 0.953,
+        "g": 0.957,
+        "b": 0.965
+      },
+      "children": [
+        {
+          "name": "Icon_Home",
+          "type": "RECTANGLE",
+          "absoluteBoundingBox": {
+            "x": 20,
+            "y": 100,
+            "width": 40,
+            "height": 40
+          }
+        },
+        {
+          "name": "Icon_Projects",
+          "type": "RECTANGLE",
+          "absoluteBoundingBox": {
+            "x": 20,
+            "y": 160,
+            "width": 40,
+            "height": 40
+          }
+        },
+        {
+          "name": "Icon_Settings",
+          "type": "RECTANGLE",
+          "absoluteBoundingBox": {
+            "x": 20,
+            "y": 220,
+            "width": 40,
+            "height": 40
+          }
+        }
+      ]
+    },
+    {
+      "name": "Header",
+      "type": "TEXT",
+      "absoluteBoundingBox": {
+        "x": 100,
+        "y": 30,
+        "width": 400,
+        "height": 50
+      },
+      "characters": "Welcome back!",
+      "style": {
+        "fontSize": 28
+      }
+    },
+    {
+      "name": "MainButtons",
+      "type": "GROUP",
+      "children": [
+        {
+          "name": "StartNewCollection",
+          "type": "RECTANGLE",
+          "absoluteBoundingBox": {
+            "x": 580,
+            "y": 200,
+            "width": 280,
+            "height": 56
+          },
+          "fill": {
+            "r": 0.145,
+            "g": 0.388,
+            "b": 0.922
+          }
+        },
+        {
+          "name": "ScanFromCamera",
+          "type": "RECTANGLE",
+          "absoluteBoundingBox": {
+            "x": 600,
+            "y": 280,
+            "width": 240,
+            "height": 56
+          },
+          "fill": {
+            "r": 0.898,
+            "g": 0.905,
+            "b": 0.922
+          }
+        },
+        {
+          "name": "ImportFromScreen",
+          "type": "RECTANGLE",
+          "absoluteBoundingBox": {
+            "x": 600,
+            "y": 360,
+            "width": 240,
+            "height": 56
+          },
+          "fill": {
+            "r": 0.898,
+            "g": 0.905,
+            "b": 0.922
+          }
+        }
+      ]
+    },
+    {
+      "name": "RecentProjects",
+      "type": "FRAME",
+      "absoluteBoundingBox": {
+        "x": 100,
+        "y": 460,
+        "width": 1240,
+        "height": 200
+      },
+      "children": [
+        {
+          "name": "ProjectCard1",
+          "type": "RECTANGLE",
+          "absoluteBoundingBox": {
+            "x": 100,
+            "y": 460,
+            "width": 320,
+            "height": 120
+          }
+        },
+        {
+          "name": "ProjectCard2",
+          "type": "RECTANGLE",
+          "absoluteBoundingBox": {
+            "x": 440,
+            "y": 460,
+            "width": 320,
+            "height": 120
+          }
+        },
+        {
+          "name": "ProjectCard3",
+          "type": "RECTANGLE",
+          "absoluteBoundingBox": {
+            "x": 780,
+            "y": 460,
+            "width": 320,
+            "height": 120
+          }
+        }
+      ]
+    }
+  ]
+}
